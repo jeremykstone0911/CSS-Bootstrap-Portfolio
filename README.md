@@ -1,89 +1,17 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+The main objective of this project was to develop a responsive portfolio webpage that is optimized at varying screen sizes. This was done with bootstrap and media queries. There are 3 different webpages: About, Contact and Portfolio. On each of these pages is a navigation bar and a footer. The navigation bar allows you to access any of the webpages. The footer has a copyright message.
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+Key Components:
 
+Navigation Bar- As the size of the screen shrinks the header moves to correspond to the size. When you reach a small screen the tabs are displays underneath the header. when it is big the tabs are on the far right.
 
-## Directions
+The Footer- It takes up the the entire page regardless of the screen size.
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+About Page- It consists of a textbox with an image and a paragraph. As the size of the screen shrinks it takes up a larger percentage of the screen. It is also stays aligned with the header in the navigation bar regardless of the screen size even though the margin changes. The text is displayed inline with the image in a big screen but the text moves below the image with a small screen. The size of the image remains constant regardless of screen size.
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+Portfolio- This page contained a box with a header and images of the different projects with text displayed on top of the images. There are 2 images per row in a big screen, but just 1 with a small screen. The box also aligns with the header in the navigation bar.
 
-* Using Bootstrap, develop your portfolio site with the following items:
+Contact - This page allows the user to enter name and email address along with a message and press submit. It also has similar responsive sizing and alignment as the other pages.
 
-   * A navbar
+Problems: For certain things media queries were used instead of bootstrap's built in classes. 2 images don't display in the portfolio page in each row until you have a really wide screen. The line separating portfolio goes all the way across the box. Padding and margins could be optimized.
 
-   * A responsive layout
-
-   * Responsive images
-
-* The Bootstrap portfolio should minimize the use of media queries.
-
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
-
-### Hints
-
-* Use Bootstrap's grid system (containers, rows, and columns).
-
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
-
-* Use an HTML validation service to ensure that each page has valid HTML.
-
-### Minimum Requirements
-
-* Functional, deployed application
-
-* GitHub repository with README describing the project
-
-* Navbar must be consistent on each page.
-
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
-* All links must work.
-
-* Must use semantic html.
-
-* Each page must have valid and correct HTML. (use a validation service)
-
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-* Must properly utilize Bootstrap components and grid system.
-
-
-### Bonus
-
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
-
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Future Objectives: Fix the problems. Add actual content to the page. Add more styling and responsive behaviors. Refactor the code.
